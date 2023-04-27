@@ -233,6 +233,10 @@ button {
      height: 60px;
      border-radius: 50px;
 }
+#navbarNav{
+     opacity: 1;
+   
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: #282828;
@@ -251,7 +255,13 @@ button {
      background-size: cover;
 background-position: center;
      padding-bottom: 90px;
-     opacity: 0.8.1;
+    
+}
+.header_section{
+     position: fixed;
+     width: 100%;
+   
+    
 }
 
 .banner_taital{
@@ -268,6 +278,110 @@ background-position: center;
      background-color: #fff;
      height: 70px;
 }
+
+/******** About Section ********/
+
+
+#about {
+	padding-top: 40px;
+	padding-bottom: 40px;
+     display:flex;
+     flex-direction: row;
+     width: 100%;
+     
+}
+#about img{
+     height: 50vh;
+}
+
+#about .text h2 {
+	font-size: 28px;
+	text-transform: uppercase;
+	font-family: 'Noto Sans', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#about .text p {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+}
+
+#about .panel-group {
+	margin-top: 30px;
+}
+
+#about .panel-heading:hover {
+    cursor:pointer;
+}
+
+#about .panel-heading {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+#about .side-tab:hover {
+     cursor: pointer;
+}
+    
+#about .panel.panel-default {
+     border: none;
+     box-shadow: none !important;
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+     padding-top: 10px;
+        
+}
+
+#about .panel-heading {
+     border: none;
+     background-color: orange;
+     color: #fff;
+     height: 60px;
+     padding-top: 10px;
+    
+}
+
+#about .panel-title {
+     margin: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+}
+ 
+#about .panel-body {
+	border-right: 1px solid #2469A2;
+	border-left: 1px solid #2469A2;
+	font-family: 'PT Sans', sans-serif;
+}     
+
+#about #carousel {
+	margin-top: 30px;
+	position: relative;
+	display: block;
+}
+
+#about #carousel .item img {
+	width: 100%;
+}
+/******** Slider ********/
+
+.carousel, .item, .active {
+     height: 100%;
+ }
+ 
+ .carousel-inner {
+     height: 100%;
+ }
+ 
 
 
 

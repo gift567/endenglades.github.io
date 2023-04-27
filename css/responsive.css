@@ -14,6 +14,8 @@
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+
+   
     .logo {
         text-align: center;
     }
@@ -86,6 +88,7 @@
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+    
     .cart-content-right {
         padding-bottom: 5px;
     }
@@ -391,7 +394,7 @@ ul.link li {
 
 
 .banner_taital { font-size: 30px;
-padding: 11px; }
+padding: 11px; margin-top: 170px; }
 .free_text { width: 100%; font-size: 23px; }
 .read_bt { width: 40%; }
 .about_text { font-size: 25px; }
