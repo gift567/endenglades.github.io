@@ -235,6 +235,8 @@ button {
 }
 #navbarNav{
      opacity: 1;
+    
+  
    
 }
 
@@ -260,6 +262,7 @@ background-position: center;
 .header_section{
      position: fixed;
      width: 100%;
+     z-index: 1000;
    
     
 }
